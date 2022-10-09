@@ -1,4 +1,4 @@
-import  {Comment} from "./Comment";
+import {Comment} from "./Comment";
 
 export interface Post {
   id?: number;
@@ -7,7 +7,7 @@ export interface Post {
   location: string;
   image?: File;
   likes?: number;
-  userLiked?: string[];
+  usersLiked?: string[];
   comments?: Comment[];
   username?: string;
 }
